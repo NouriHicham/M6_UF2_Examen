@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import './styles/App.css'
 import Header from './components/Header'
 import Juegos from './vistas/Juegos';
-import Instrucciones from './vistas/instrucciones';
+import Instrucciones from './vistas/Instrucciones';
 
 function App() {
 
