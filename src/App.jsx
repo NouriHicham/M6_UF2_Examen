@@ -4,7 +4,6 @@ import './styles/App.css'
 import Header from './components/Header'
 import Juegos from './vistas/Juegos';
 import Instrucciones from './vistas/instrucciones';
-import Puntos from './vistas/puntos';
 
 function App() {
 
@@ -14,7 +13,6 @@ function App() {
       <Routes>
          <Route path="/" element={<Juegos/>} />
          <Route path="/instrucciones" element={<Instrucciones/>} />
-         <Route path="/puntos" element={<Puntos/>} />
       </Routes>
     </>
   )

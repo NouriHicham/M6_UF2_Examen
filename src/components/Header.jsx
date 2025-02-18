@@ -9,7 +9,6 @@ export default function Header(){
                <div>
                   <button class="btn btn-secondary ms-2"><Link className="nav-link" to="/">Juego</Link></button>
                   <button class="btn btn-secondary ms-2"><Link className="nav-link" to="/instrucciones">Instrucciones</Link></button>
-                  <button class="btn btn-secondary ms-2"><Link className="nav-link" to="/puntos">Puntos</Link></button>
                </div>
                </div>
             </nav>
