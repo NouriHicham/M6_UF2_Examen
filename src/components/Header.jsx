@@ -7,8 +7,8 @@ export default function Header(){
             <nav className="navbar navbar-light bg-light">
                <div className="">
                <div>
-                  <button class="btn btn-secondary ms-2"><Link className="nav-link" to="/">Juego</Link></button>
-                  <button class="btn btn-secondary ms-2"><Link className="nav-link" to="/instrucciones">Instrucciones</Link></button>
+                  <button className="btn btn-secondary ms-2"><Link className="nav-link" to="/">Juego</Link></button>
+                  <button className="btn btn-secondary ms-2"><Link className="nav-link" to="/instrucciones">Instrucciones</Link></button>
                </div>
                </div>
             </nav>
