@@ -82,7 +82,19 @@ export default function Juegos(){
       nuevoCuadro[antiguaY][antiguaX] = 0; // borrar antigua posicion
       nuevoCuadro[y][x] = 2; // dibujar nueva posicion
 
+      fantasmas.forEach(element => {
+         if(element.x == x && element.y == y){
+            console.log("fantasma")
+            const index = fantasmas.indexOf(element);
+            fantasmas.splice(index, 1);
+            console.log(fantasmas);
+         }
+         
+         
+      });
+
       setPacman({ ...pacman, x: x, y: y });
+      
       setCuadro(nuevoCuadro);
    }
 
