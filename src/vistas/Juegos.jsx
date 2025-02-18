@@ -85,9 +85,13 @@ export default function Juegos(){
       fantasmas.forEach(element => {
          if(element.x == x && element.y == y){
             console.log("fantasma")
+
             const index = fantasmas.indexOf(element);
             fantasmas.splice(index, 1);
             console.log(fantasmas);
+
+            var nuevoPoints = points + 1;
+            setPoints(nuevoPoints);
          }
          
          
