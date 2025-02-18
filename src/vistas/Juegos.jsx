@@ -93,12 +93,14 @@ export default function Juegos(){
             var nuevoPoints = points + 1;
             setPoints(nuevoPoints);
          }
-         
+
+         if (fantasmas.length == 0) {
+            alert("¡Ganaste!");
+         }
          
       });
 
       setPacman({ ...pacman, x: x, y: y });
-      
       setCuadro(nuevoCuadro);
    }
 
